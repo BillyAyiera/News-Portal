@@ -1,0 +1,25 @@
+{{#partial "content"}}
+    <div class="container">
+<h1 class="text-center">NEWS</h1>
+    <hr>
+    {{#if news}}
+    {{#each news}}
+            <div class="card" style="width: 10rem; font-size:30px;  display: inline;">
+                <div class="card-body" style="border: 3px solid grey;">
+                    <h1 class="card-title" style="">{{ departid }} | {{ header }}</h1>
+                    <p class="card-text">{{ content }}</p>
+                    <button class="btn btn-danger stretched-link" href="/news/new">DELETE</button>
+                    <button class="btn btn-warning stretched-link" href="/news/new">UPDATE</button><br>
+                </div>
+            </div>
+    {{/each}}
+    {{else}}
+        <p class="text-center">No news available</p>
+    {{/if}}
+    <a class="btn btn-primary stretched-link" href="/news/new">ADD NEWS</a>
+        <a class="btn btn-primary stretched-link" href="/">BACK</a>
+        <br><br>
+    </div>
+{{/partial}}
+
+{{>layout.hbs}}

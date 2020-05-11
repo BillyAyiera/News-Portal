@@ -1,0 +1,43 @@
+{{#partial "content"}}
+    <div class="text-center" style="background-color: white;">
+    <h2 >ALL DEPARTMENTS</h2>
+        <hr>
+
+    <div class="container">
+        <div class="row" style="font-size: 2.5em;">
+            <div class="col-sm-2">
+                Department name
+            </div>
+            <div class="col-sm-2">
+                Department description
+            </div>
+            <div class="col-sm-2">
+                Number of employees
+            </div>
+        </div>
+        <hr >
+{{#if departments}}
+        {{#each departments}}
+        <div class="row">
+            <div class="col-sm-2">
+                {{depname}}
+            </div>
+            <div class="col-sm-2">
+                {{depdescr}}
+            </div>
+            <div class="col-sm-2">
+                {{depsize}}
+            </div>
+        </div>
+            <hr>
+        {{/each}}
+{{/if}}
+
+    </div><br><br>
+
+
+        <a class="btn btn-warning stretched-link" href="/depts/new">ADD NEW DEPARTMENT</a>
+        <a class="btn btn-primary stretched-link" href="/">BACK</a><br><br>
+    </div>
+{{/partial}}
+{{>layout.hbs}}

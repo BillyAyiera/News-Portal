@@ -1,0 +1,40 @@
+{{#partial "content"}}
+  <h1></h1>
+
+<div class="modal-dialog cascading-modal text-center" role="document">
+    <form action="/users" method="post" >
+        <div class="modal-content">
+            <div class="modal-header danger-color white-text">
+                <h1 class="title" style="font-size:50px;"> New User</h1>
+            </div>
+
+            <div class="modal-body">
+
+                <div class="md-form form-sm">
+                    <i class="fas fa-heading"> Employee name</i>
+                    <input type="text" name="username" class="form-control form-control-sm" required>
+                </div>
+
+                <div class="md-form form-sm">
+                    <i class="far fa-newspaper">  Department ID</i>
+                    <input type="number" min="1" name="departid" class="md-textarea form-control" required>
+                </div>
+
+                <div class="md-form form-sm">
+                    <i class="fas fa-star"> Position</i>
+                    <input type="text" name="post" class="form-control form-control-sm" required>
+                </div>
+
+                <div class="text-center mt-4 mb-2">
+                    <button class="btn btn-outline-danger" type="submit">Submit
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </form>
+    <br>
+    <a class="btn btn-primary stretched-link" href="/">BACK</a><br><br>
+</div>
+{{/partial}}
+{{>layout.hbs}}

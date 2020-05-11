@@ -1,0 +1,51 @@
+{{#partial "content"}}
+
+    <div class="page">
+        <a href="/"><i class="fas fa-arrow-left"></i></a>
+        <h2 class="text-center deps-title">{{ depname }}</h2>
+
+
+        <div class="modal-dialog cascading-modal" role="document" style="font-size:30px; ">
+            <form action="/news" method="post" style="background-color:white;">
+                <div class="modal-content">
+                    <div class="modal-header danger-color white-text">
+                        <h4 class="title">
+                            <i class="far fa-newspaper"></i> News Info</h4>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <div class="md-form form-sm">
+                            <i class="fas fa-star"> Department Number</i>
+                            <input type="number" name="departid" class="form-control form-control-sm" required>
+                        </div>
+
+                        <div class="md-form form-sm">
+                            <i class="far fa-newspaper">Content</i>
+                            <textarea type="text" name="content" class="md-textarea form-control-sm" required></textarea>
+                        </div>
+
+                        <div class="md-form form-sm">
+                            <i class="fas fa-heading">News Heading</i>
+                            <input type="text" name="header" class="form-control form-control-sm" required>
+                        </div>
+
+
+                        <div class="text-center mt-4 mb-2">
+                            <button class="btn btn-outline-danger" type="submit">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <br>
+            <a class="btn btn-primary stretched-link" href="/">BACK</a><br><br>
+        </div>
+        <br><br><br><br><br>
+    </div>
+    <style>
+
+    </style>
+
+{{/partial}}
+{{>layout.hbs}}

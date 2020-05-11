@@ -43,7 +43,7 @@ sdk install gradle
  ``` bash
 gradle run
  ```
-navigate to localhost:4567 to view the website.
+7. Navigate to localhost:4567 to view the website.
 
 ### Database;
 ~ psql <br>

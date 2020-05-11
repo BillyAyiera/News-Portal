@@ -56,7 +56,7 @@ gradle run
 - PostgreSQL
 - Maven
 - Handlebars, CSS, Bootstrap.
-- Java , intellij IDEA
+- Java , Intellij IDEA
 
 ## Contributions and support.
 In case of any issues, bugs, or you would like to contribute or support, contact me via: 

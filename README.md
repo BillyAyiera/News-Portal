@@ -47,9 +47,9 @@ gradle run
 
 ### Database;
 ~ psql <br>
-~ login <br>
+~ Login <br>
 ~ Create Database <br>
-~ Create Table
+~ Create Tables
 
 ### Technologies used
 - Postman

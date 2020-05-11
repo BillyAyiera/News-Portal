@@ -51,7 +51,7 @@ gradle run
 ~ Create Database <br>
 ~ Create Table
 
-##Technologies used
+### Technologies used
 - Postman
 - PostgreSQL
 - Maven

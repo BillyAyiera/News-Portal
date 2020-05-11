@@ -1,4 +1,4 @@
-# NEWS-PORTAL
+# News-Portal
 
 ## DESCRIPTION.
 
@@ -37,7 +37,7 @@ sdk install gradle
 
 4. **Clone** the project.
 
-5. **get into project folder** (cd into project).
+5. **Get into project folder** (cd into project).
 
 6. If you have all the **Pre-requisites** you can run the application.
  ``` bash

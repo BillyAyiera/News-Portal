@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle/5.2.1/vcsMetadata-1/
+.gradle/6.3/vcsMetadata-1/
+build/generated/
+build/tmp/compileJava/
+src/test/
+target/archive-tmp/
+target/generated-sources/
+target/heroku/app/target/archive-tmp/
+target/heroku/app/target/generated-sources/
+target/heroku/app/target/test-classes/
+target/test-classes/
+.gradle
+.idea
+build
+gradle
+gradlew.bat
+gradlew
+settings.gradle

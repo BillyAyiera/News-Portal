@@ -11,3 +11,10 @@ target/heroku/app/target/archive-tmp/
 target/heroku/app/target/generated-sources/
 target/heroku/app/target/test-classes/
 target/test-classes/
+.gradle
+.idea
+build
+gradle
+gradlew.bat
+gradlew
+settings.gradle
